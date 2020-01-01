@@ -7,6 +7,7 @@ python train_model.py
 
 ### To test the model
 python test_model.py 'path_of_saved_model_weights' (without quotes)
+
 For example: python test_model.py saved_model/-134.0_agent_.h5
 
 
