@@ -18,7 +18,7 @@ To test agent with our trained weights: python test_model.py saved_model/-134.0_
 #### Output of agent taking random actions
 ![Episode: 0 | width=20](demo/mountain_car_random.gif)
 
-#### Output of agent at Episode: 550 with score -134.0
+#### Output of our agent at Episode: 550 with score -134.0
 ![Episode: 550, Score:-134.0](demo/mountain_car_trained.gif)
 
 
