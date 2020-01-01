@@ -8,7 +8,7 @@ python train_model.py
 #### To test the model
 python test_model.py 'path_of_saved_model_weights' (without quotes)
 
-For example: python test_model.py saved_model/-134.0_agent_.h5
+To test agent with our trained weights: python test_model.py saved_model/-134.0_agent_.h5
 
 ##### The greater the value of the episodic reward achieved, the better is the model.
 
