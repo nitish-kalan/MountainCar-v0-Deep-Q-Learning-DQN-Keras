@@ -22,7 +22,7 @@ For example: python test_model.py saved_model/-134.0_agent_.h5
 
 ### References
 [1] Playing Atari with Deep Reinforcement Learning
-    Authord: Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller       
+    Authors: Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller       
     Link: https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
 
 
