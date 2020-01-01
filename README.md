@@ -1,6 +1,5 @@
 # MountainCar-v0-Deep-Q-Learning
 
-
 #### Output of agent taking random actions
 ![Episode: 0](demo/mountain_car_random.gif)
 
