@@ -2,13 +2,16 @@
 MountainCar-v0 is an environment presented by OpenAI Gym. In this repository we have used Deep Q Learning algorithm [1] for building an agent to solve this environment.
 
 ### Commands to run
-#### To train the model
-    python train_model.py
+  * To train the model
+    
+        python train_model.py
+  * To test the model
+     
+        python test_model.py 'path_of_saved_model_weights' (without quotes)
 
-#### To test the model
-`python test_model.py 'path_of_saved_model_weights'` (without quotes)
+To test agent with our trained weights: 
 
-To test agent with our trained weights: <code>python test_model.py saved_model/-134.0_agent_.h5</code>
+    python test_model.py saved_model/-134.0_agent_.h5
 
 ##### The greater the value of the episodic reward achieved, the better is the model.
 
