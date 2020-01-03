@@ -6,7 +6,7 @@ MountainCar-v0 is an environment presented by OpenAI Gym. In this repository we 
 python train_model.py
 
 #### To test the model
-<code>python test_model.py 'path_of_saved_model_weights'</code> (without quotes)
+`python test_model.py 'path_of_saved_model_weights'` (without quotes)
 
 To test agent with our trained weights: <code>python test_model.py saved_model/-134.0_agent_.h5</code>
 
