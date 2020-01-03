@@ -3,7 +3,7 @@ MountainCar-v0 is an environment presented by OpenAI Gym. In this repository we 
 
 ### Commands to run
 #### To train the model
-python train_model.py
+    python train_model.py
 
 #### To test the model
 `python test_model.py 'path_of_saved_model_weights'` (without quotes)
