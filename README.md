@@ -9,9 +9,9 @@ MountainCar-v0 is an environment presented by OpenAI Gym. In this repository we 
      
         python test_model.py 'path_of_saved_model_weights' (without quotes)
 
-To test agent with our trained weights: 
+  * **To test agent with our trained weights:**
 
-    python test_model.py saved_model/-134.0_agent_.h5
+        python test_model.py saved_model/-134.0_agent_.h5
 
 ##### The greater the value of the episodic reward achieved, the better is the model.
 
