@@ -1,5 +1,5 @@
 # MountainCar-v0 Deep Q-Learning
-MountainCar-v0 is an environment presented by OpenAI Gym. In this repository we have used Deep Q Learning algorithm [1] for building an agent to solve this environment.
+MountainCar-v0 is an environment presented by OpenAI Gym. In this repository we have implemeted Deep Q Learning algorithm [1] in Keras for building an agent to solve MountainCar-v0 environment.
 
 ### Commands to run
   * **To train the model**
