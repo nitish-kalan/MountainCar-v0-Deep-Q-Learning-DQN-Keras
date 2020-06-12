@@ -100,13 +100,13 @@ for episode in range(EPISODES):
             
         # Add experience to replay memory buffer
         replay_memory.append((cur_state, action, reward, next_state, reward))
+        cur_state = next_state
         
         if(len(replay_memory) < MINIMUM_REPLAY_MEMORY):
             continue
         
         train_dqn_agent()
 
-        cur_state = next_state
 
     if(EPSILON > MINIMUM_EPSILON and len(replay_memory) > MINIMUM_REPLAY_MEMORY):
         EPSILON *= EPSILON_DECAY
