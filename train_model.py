@@ -99,7 +99,7 @@ for episode in range(EPISODES):
             reward = 5*abs(next_state[0] - cur_state[0]) + 3*abs(cur_state[1])
             
         # Add experience to replay memory buffer
-        replay_memory.append((cur_state, action, reward, next_state, reward))
+        replay_memory.append((cur_state, action, reward, next_state, done))
         cur_state = next_state
         
         if(len(replay_memory) < MINIMUM_REPLAY_MEMORY):
